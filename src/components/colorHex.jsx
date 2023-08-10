@@ -6,6 +6,7 @@ export const getRandomHexColor = () => {
   if(red > 30 || green > 30 || blue > 30) {
     return `#${red.toString(16)}${green.toString(16)}${blue.toString(16)}`;       
   }
-  getRandomHexColor()
+
+   getRandomHexColor()
 
 }
