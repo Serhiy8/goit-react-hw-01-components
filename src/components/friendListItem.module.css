@@ -1,0 +1,45 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 10px 0;
+  border: solid 1px #ccc;
+}
+
+.friendName {
+  flex-basis: 50%;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+.friendAvatar {
+  flex-basis: 35%;
+}
+
+.statusContainer {
+  flex-basis: 15%;
+}
+
+.statusOn,
+.statusOff {
+  display: block;
+  margin: 0 auto;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.statusOn {
+  background-color: #0fcc45;
+}
+
+.statusOff {
+  background-color: #ff0000;
+}
+
+.friendAvatar img {
+  display: block;
+  margin: 0 auto;
+}

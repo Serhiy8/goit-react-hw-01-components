@@ -1,0 +1,8 @@
+.transactionHistory {
+  width: 340px;
+}
+
+.amountTrns,
+.currencyTrns {
+  text-align: center;
+}
