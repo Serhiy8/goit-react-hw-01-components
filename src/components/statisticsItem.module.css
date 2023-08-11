@@ -1,0 +1,12 @@
+.item {
+  display: flex;
+  flex-basis: 20%;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px #ccc;
+  /* row-gap: 10px; */
+}
+
+.percentage {
+  font-size: 26px;
+}
