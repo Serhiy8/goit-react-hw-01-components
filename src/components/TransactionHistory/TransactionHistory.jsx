@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './transactionHistory.module.css'
-import { getRandomHexColor } from './colorHex';
+import { getRandomHexColor } from '../utils/colorHex';
 
 export const TransactionHistory = ({items}) =>{
     return <table className={css.transactionHistory}>

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import {getRandomHexColor} from './colorHex'
+import {getRandomHexColor} from '../utils/colorHex'
 import css from './statisticsItem.module.css'
 
 export const StatisticItem = ({ label, percentage}) => {
