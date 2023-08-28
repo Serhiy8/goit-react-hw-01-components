@@ -4,7 +4,7 @@ import css from './statisticsItem.module.css'
 
 export const StatisticItem = ({ label, percentage}) => {
    return <li className={css.item}style={{backgroundColor: getRandomHexColor()}} >
-            <span className="label">{label}</span>
+            <span>{label}</span>
             <span className={css.percentage}>{percentage}%</span>
         </li>
 }

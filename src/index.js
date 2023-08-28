@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom/client';
 import { App } from 'components/App';
 import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const appNode = document.getElementById('root');
+const appRoot = ReactDOM.createRoot(appNode);
+
+appRoot.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
